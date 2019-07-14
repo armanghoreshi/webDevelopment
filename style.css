@@ -1,46 +1,38 @@
-* {
-    box-sizing: border-box;
-}
 body{
-    margin : 20px auto;
-    width : 50%;
-}
-ul{
-    list-style-type: none;
-    display : flex;
-    flex-flow: row wrap;
-}
-li {
-    border : 2px solid red;
-    padding : 10px;
-    text-align: center;
-    font-size: 30px;
-    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media  (max-width: 910px){
-    ul{
-        justify-content:space-around;
-        align-items: stretch;
-    }
-    li{
-       flex-basis : 50%; 
-       font-size: 28px;
-    }
+nav{
+    background-color:cadetblue;
+    text-align: center;
 }
-@media (max-width: 500px){
-    ul{
-        flex-direction: column;
-        justify-content:space-around;
-        align-items: stretch;
-    }
-    li{
-        font-size: 25px;
-     }
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
 }
-@media  (max-width: 300px )&(min-width: 200px){
-    li{
-        font-size: 17px;
-        padding : 5px;
-     }
+
+.nav-item{
+    list-style-type: none;
 }
+
+.nav-item > a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.nav-item > a:hover{
+    background-color: rgb(75, 185, 189);
+}
+
+.nav-brand {
+    margin-right: auto;
+}
+
