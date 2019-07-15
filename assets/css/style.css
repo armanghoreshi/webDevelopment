@@ -29,7 +29,7 @@ div, body {
       text-align: center;
       flex-flow: column wrap;
       padding: 0;
-      font-size: 34px; }
+      font-size: 80px; }
     #mainContainer .navigation li:last-of-type a {
       border-bottom: none; } }
   #mainContainer .card_container {
