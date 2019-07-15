@@ -21,10 +21,10 @@ div, body {
     transition: 0.5s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     color: #e1e0e0; }
-  @media only screen and (min-width: 1001px) {
+  @media only screen and (min-width: 993px) {
     #mainContainer .navigation {
       justify-content: start; } }
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 992px) {
     #mainContainer .navigation {
       text-align: center;
       flex-flow: column wrap;
@@ -37,7 +37,7 @@ div, body {
     justify-content: start;
     margin: auto;
     /* Extra small devices (phones, 600px and down) */ }
-    @media only all and (max-width: 1000px) {
+    @media only all and (max-width: 992px) {
       #mainContainer .card_container {
         flex-flow: column wrap;
         justify-content: center;
@@ -72,7 +72,9 @@ div, body {
           margin-top: 2%; } }
       @media only screen and (min-width: 768px) {
         #mainContainer .card_container .card {
-          width: 23%; } }
+          width: 75%;
+          height: 65%;
+          margin-top: 2%; } }
       @media only screen and (min-width: 992px) {
         #mainContainer .card_container .card {
           width: 23%; } }
