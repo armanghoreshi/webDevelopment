@@ -37,7 +37,7 @@ div, body {
     justify-content: start;
     margin: auto;
     /* Extra small devices (phones, 600px and down) */ }
-    @media only all and (max-width: 768px) {
+    @media only all and (max-width: 1000px) {
       #mainContainer .card_container {
         flex-flow: column wrap;
         justify-content: center;
@@ -91,4 +91,4 @@ div, body {
       #mainContainer .card_container .card .card_body {
         padding: 2px 16px; }
     #mainContainer .card_container .card:hover {
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5); }
