@@ -30,7 +30,7 @@ div, body {
       flex-flow: column wrap;
       padding: 0; }
       #mainContainer .navigation li a {
-        height: 100vh; }
+        height: 10vh; }
     #mainContainer .navigation li:last-of-type a {
       border-bottom: none; } }
   #mainContainer .card_container {
