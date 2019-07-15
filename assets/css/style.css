@@ -53,7 +53,7 @@ div, body {
       transition: 0.3s;
       margin: 5px;
       border: 1px solid #0b245b;
-      border-radius: 5px;
+      border-radius: 10px;
       height: 300px;
       /* Extra small devices (phones, 600px and down) */
       /* Small devices (portrait tablets and large phones, 600px and up) */
